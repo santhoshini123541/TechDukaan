@@ -458,4 +458,126 @@ body.light-mode .foot-panel1:hover {
   animation: popUp 0.3s ease;
 }
 
+/* ========== Responsive Design ========== */
+@media (max-width: 1024px) {
+  .nav-search {
+    width: 90%;
+  }
+  .shop-section {
+    justify-content: center;
+  }
+  .box {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-logo,
+  .nav-address,
+  .nav-search,
+  .nav-signin,
+  .nav-return,
+  .nav-cart,
+  .theme-toggle {
+    margin: 5px 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .nav-search {
+    flex-direction: column;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .search-input {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .panel {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px;
+    top: 60px;
+  }
+
+  .panel-ops,
+  .panel-deals {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .shop-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .hero-section {
+    aspect-ratio: 16 / 9;
+    margin-top: 140px; /* Adjust for wrapped nav and panel */
+  }
+
+  .hero-msg {
+    max-width: 95%;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .foot-panel2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .foot-panel2 ul {
+    width: 90%;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    font-size: 1.5rem;
+  }
+
+  .nav-second {
+    font-size: 0.75rem;
+  }
+
+  .search-select {
+    font-size: 1rem;
+  }
+
+  .box-img {
+    height: 200px;
+  }
+
+  .box-content h2 {
+    font-size: 1rem;
+  }
+
+  .box-content p {
+    font-size: 0.85rem;
+  }
+
+  .extra-info {
+    font-size: 0.75rem;
+  }
+}
 
